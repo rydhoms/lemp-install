@@ -80,4 +80,4 @@ echo -en "<?php\n phpinfo()\n?>" > /var/www/html/info.php
 
 echo "Installation completed"
 echo "You can access your web on your IP or domain pointing to your IP"
-echo "you access php info on http://your-domain.com/info.php
+echo "you access php info on http://your-domain.com/info.php"
