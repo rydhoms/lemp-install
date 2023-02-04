@@ -76,7 +76,7 @@ sudo service php7.4-fpm restart
 sudo service mariadb restart
 
 # write php info
-echo -en "<?php\n phpinfo()\n?>" > /var/www/html/info.php
+echo -e "<?php\n phpinfo()\n?>" >> /var/www/html/info.php
 
 echo "Installation completed"
 echo "You can access your web on your IP or domain pointing to your IP"
