@@ -55,7 +55,7 @@ sudo apt install php7.4-fpm php7.4-common php7.4-mysql php7.4-xml php7.4-xmlrpc 
 sudo apt install mariadb-server -y
 
 # manual setup mariadb
-sudo mysql_secure_installation
+# sudo mysql_secure_installation
 
 # download nginx config
 wget https://raw.githubusercontent.com/rydhoms/lemp-install/main/example.com -O /etc/nginx/sites-available/example.com
@@ -81,3 +81,5 @@ echo -e "<?php\n phpinfo()\n?>" >> /var/www/html/info.php
 echo "Installation completed"
 echo "You can access your web on your IP or domain pointing to your IP"
 echo "you access php info on http://your-domain.com/info.php"
+echo "after installation complete, you need to configure mariadb with this command:"
+echo "sudo mysql_secure_installation"
